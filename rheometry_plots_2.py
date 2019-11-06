@@ -59,6 +59,6 @@ plt.ylim([0.52, 1.07])
 plt.xlabel('Shear rate, $s^{-1}$')
 plt.ylabel('$\eta/\eta_{0}$')
 plt.tight_layout()
-plt.savefig('rheometry_2.png', dpi=500)
+plt.savefig('figures/rheometry_2.png', dpi=500)
 
 plt.show()

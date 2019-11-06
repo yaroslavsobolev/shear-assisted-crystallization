@@ -60,7 +60,7 @@ loss_modulus = data[:,2]
 plt.loglog(freq, storage_modulus, color='#ff7f0e', alpha=0.8, label='''G\', MW 849k g/mol''')
 plt.loglog(freq, loss_modulus, '--', color='#ff7f0e', linewidth=2, alpha=0.8, label='''G\", MW 849k g/mol''')
 
-plt.loglog(freq1[:-15], fit_sampled[:-15], color='black', alpha=0.5) #label='$G\'=\\alpha\\omega^{1/2}$'
+# plt.loglog(freq1[:-15], fit_sampled[:-15], color='black', alpha=0.5) #label='$G\'=\\alpha\\omega^{1/2}$'
 # orange
 
 plt.xlim([0.5, 1e3])
@@ -69,10 +69,10 @@ plt.xlabel('Frequency, rad/s')
 plt.ylabel('Dynamic modulus, Pa')
 plt.legend()
 plt.tight_layout()
-plt.savefig('rheometry_3a.png', dpi=500)
+plt.savefig('figures/rheometry_3a.png', dpi=500)
 
 # # plt.xlabel('Shear rate, $s^{-1}$')
 # # plt.ylabel('Viscosity, Pa$\cdot$s')
 # plt.tight_layout()
-# plt.savefig('rheometry_2.png', dpi=500)
+# plt.savefig('figures/rheometry_2.png', dpi=500)
 plt.show()

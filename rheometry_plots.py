@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
 
-f1,ax = plt.subplots(1, figsize=(2.7,5))
+f1,ax = plt.subplots(1, figsize=(2.7,4))
 data = np.loadtxt('data/rheometry/PIL1_849k__13.4equiv.txt', skiprows=2, usecols=[0,1,2,3,4])
 sr = data[:,2]
 viscosity = data[:,4]/1000
@@ -42,7 +42,7 @@ locmin = tck.LogLocator(base=1000.0,subs=(0.01,0.1,1),numticks=30)
 ax.xaxis.set_minor_locator(locmin)
 ax.xaxis.set_minor_formatter(tck.NullFormatter())
 ax.set_xticks([1e-3, 1e-1, 1e1, 1e3])
-plt.savefig('rheometry_1.png', dpi=500)
+plt.savefig('figures/rheometry_1b.png', dpi=500)
 print(1)
 
 # f2 = plt.figure(2, figsize=(2,2))
@@ -61,5 +61,5 @@ print(1)
 # # plt.xlabel('Shear rate, $s^{-1}$')
 # # plt.ylabel('Viscosity, Pa$\cdot$s')
 # plt.tight_layout()
-# plt.savefig('rheometry_1_inset.png', dpi=500)
+# plt.savefig('figures/rheometry_1_inset.png', dpi=500)
 plt.show()
