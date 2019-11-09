@@ -1,5 +1,5 @@
 # Raw data, code for its analysis, and CFD project files used in research article "Enhancing crystal growth using polyelectrolyte solutions and shear flow"
-![https://doi.org/10.5281/zenodo.3533636](https://zenodo.org/badge/doi/10.5281/zenodo.3533636.svg)
+[![DOI](https://zenodo.org/badge/196975132.svg)](https://zenodo.org/badge/latestdoi/196975132)
 
 For more details, see the research article:
 
