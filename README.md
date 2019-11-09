@@ -1,4 +1,5 @@
 # Raw data, code for its analysis, and CFD project files used in research article "Enhancing crystal growth using polyelectrolyte solutions and shear flow"
+![https://doi.org/10.5281/zenodo.3533636](https://zenodo.org/badge/doi/10.5281/zenodo.3533636.svg)
 
 For more details, see the research article:
 
@@ -12,5 +13,4 @@ Jian-Ke Sun, Yaroslav I. Sobolev, Weiyi Zhang, Qiang Zhuang & Bartosz A. Grzybow
 `/figures` is where Python scripts save the plots
 
 `/STLs_for_3D_printing` contains geometry files for manufacturing magnetically-actuated Couette cells
-
 
