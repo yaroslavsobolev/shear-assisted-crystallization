@@ -1,1 +1,0 @@
-PMMA = 75 mg, molecular weight= 996 K, TA= 80 mg, DMF=0.75 ml, speed = 200 rpm, time = 3h, T = 25 ¡æ

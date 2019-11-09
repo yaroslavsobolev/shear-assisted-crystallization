@@ -19,16 +19,16 @@ N = 3
 data_stirring = []
 
 data_stirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'Data for Figure 2c/',
+                                         'TA-with-different-polymers-under-shear-400rpm/',
                                          'TA without PIL-200 rpm- 3h.txt')[:,1])
 data_stirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'Data for Figure 2c/',
+                                         'TA-with-different-polymers-under-shear-400rpm/',
                                          'TA-75 mg PIL-0.75 ml DMF-200 rpm- 3h- Size distribution.txt')[:,1])
 data_stirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'Data for Figure 2c/',
+                                         'TA-with-different-polymers-under-shear-400rpm/',
                                          'TA-75 mg PMMA-0.75 ml DMF-200 rpm-3h.txt')[:,1])
 data_stirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'Data for Figure 2c/',
+                                         'TA-with-different-polymers-under-shear-400rpm/',
                                          'TA-75 mg PVDF-0.75 ml DMF-200 rpm-3h.txt')[:,1])
 print(data_stirring)
 

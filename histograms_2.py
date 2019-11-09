@@ -136,7 +136,7 @@ def plot_MW(add_LS=False):
 
     plot_file(base_folder + \
                   'TA with and without monomer - 200 rpm/',
-              ['Size distriubton of-TA 108 mg-without monomer-200 rpm.txt'],#, 'size distribution-009.txt'],
+              ['trimesic-acid-in-pure-DMD-200rpm.txt'],#, 'size distribution-009.txt'],
               alpha=0.5,
               axis=ax0,
               add_LS=add_LS,
@@ -147,7 +147,7 @@ def plot_MW(add_LS=False):
 
     plot_file(base_folder + \
                   'TA with and without monomer - 200 rpm/',
-              ['Size distribution-TA-70 mg+ monomer-200 rpm.txt'],
+              ['trimesic-acid-with-PILmonomer-200rpm.txt'],
               alpha=0.5,
               axis=ax1,
               add_LS=add_LS,
@@ -159,7 +159,7 @@ def plot_MW(add_LS=False):
 
     plot_file(base_folder + \
                   'PIL molecular weight dependent crystallziation-200 rpm/'
-                  'Lowest molecular weight/200 rpm/',
+                  '402k molecular weight/200 rpm/',
               ['size distribution 014.txt', 'size distribution 024.txt', 'size distribution 026.txt'],
               alpha=0.7,
               axis=ax2,
@@ -170,7 +170,7 @@ def plot_MW(add_LS=False):
 
     plot_file(base_folder + \
                   'PIL molecular weight dependent crystallziation-200 rpm/'
-                  'Middle molecular weight/Bottom part/',
+                  '849k-molecular-weight/size-distributions/',
               ['size distribution-009.txt', 'size distribution-010.txt'],
               alpha=0.7,
               axis=ax3,
@@ -224,7 +224,7 @@ def plot_MW_revision_compare(add_LS=False):
 
     plot_file(base_folder + \
                   'TA with and without monomer - 200 rpm/',
-              ['Size distriubton of-TA 108 mg-without monomer-200 rpm.txt'],#, 'size distribution-009.txt'],
+              ['trimesic-acid-in-pure-DMD-200rpm.txt'],#, 'size distribution-009.txt'],
               alpha=0.1,
               axis=ax2,
               add_LS=add_LS,
@@ -235,7 +235,7 @@ def plot_MW_revision_compare(add_LS=False):
 
     plot_file(base_folder + \
                   'TA with and without monomer - 200 rpm/',
-              ['Size distribution-TA-70 mg+ monomer-200 rpm.txt'],
+              ['trimesic-acid-with-PILmonomer-200rpm.txt'],
               alpha=0.1,
               axis=ax3,
               add_LS=add_LS,
@@ -273,7 +273,7 @@ def plot_PMMA():
     #         transform=ax1.transAxes)
 
     # plot_file(base_folder + \
-    #               'Data of Crystal growth from PVDF and PMMA/'
+    #               'TA-with-PVDF-or-PMMA-at-400rpm/'
     #               'PMMA-120 k/',
     #           ['008-size distribution.txt'],
     #           alpha=0.5,
@@ -283,7 +283,7 @@ def plot_PMMA():
     #         transform=ax2.transAxes, fontsize=10)
 
     plot_file(base_folder + \
-                  'Data of Crystal growth from PVDF and PMMA/'
+                  'TA-with-PVDF-or-PMMA-at-400rpm/'
                   'PMMA-996 k/',
               ['size distribution-002.txt'],
               alpha=0.5,
@@ -315,7 +315,7 @@ def plot_PMMA_PVDF():
     #         transform=ax1.transAxes)
 
     plot_file(base_folder + \
-                  'Data of Crystal growth from PVDF and PMMA/'
+                  'TA-with-PVDF-or-PMMA-at-400rpm/'
                   'PMMA-996 k/',
               ['size distribution-002.txt'],
               alpha=0.5,
@@ -325,7 +325,7 @@ def plot_PMMA_PVDF():
             transform=ax2.transAxes)
 
     # plot_file(base_folder + \
-    #               'Data of Crystal growth from PVDF and PMMA/'
+    #               'TA-with-PVDF-or-PMMA-at-400rpm/'
     #               'PVDF-/',
     #           ['005-size distribution.txt'],
     #           alpha=0.5,
@@ -335,7 +335,7 @@ def plot_PMMA_PVDF():
     #         transform=ax3.transAxes)
 
     plot_file(base_folder + \
-                  'Data for Figure 2c/',
+                  'TA-with-different-polymers-under-shear-400rpm/',
               ['TA-75 mg PVDF-0.75 ml DMF-200 rpm-3h.txt'],
               alpha=0.5,
               axis=ax3)

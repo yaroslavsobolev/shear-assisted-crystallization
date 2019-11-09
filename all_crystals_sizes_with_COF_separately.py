@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
-base_folder = 'data/crystal_growth/Size distribution data for 18 crystals -update2/'
+base_folder = 'data/crystal_growth/Size distribution data for 18 crystals/'
 def get_sizes_from_file(target_folder, file, is_in_nm=False):
     data = np.zeros(shape=(2,2))
     target_file = target_folder + file
@@ -43,10 +43,10 @@ data_stirring = []
 data_nostirring = []
 
 data_stirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'Stirring-SD-updated/Stirring-SD/',
+                                         'TA-time-dependence-PIL-under-shear/Stirring-SD/',
                                          '10 min-SD.txt')[:,1])
 data_nostirring.append(get_sizes_from_file('data/crystal_growth/'
-                                         'No stirring -SD-updated/',
+                                         'TA-time-dependence-PIL-no-shear/',
                                          '10 min-SD.txt')[:,1])
 print('Numbers of crystals: ')
 print(len(data_stirring[0]))

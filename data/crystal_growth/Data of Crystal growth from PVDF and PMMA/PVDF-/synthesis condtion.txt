@@ -1,1 +1,0 @@
-PVDF = 75 mg, molecular weight= not sure, get from Witold Adamkiewicz, TA= 83 mg, DMF=0.75 ml, speed = 400 rpm, time = 3h, T = 25 ¡æ
