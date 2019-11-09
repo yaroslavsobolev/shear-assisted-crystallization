@@ -11,6 +11,6 @@ Jian-Ke Sun, Yaroslav I. Sobolev, Weiyi Zhang, Qiang Zhuang & Bartosz A. Grzybow
 
 `/figures` is where Python scripts save the plots
 
-`/STLs_for_3D_printing` contains geometry files for manufacturing the magnetically-actuated Couette cells
+`/STLs_for_3D_printing` contains geometry files for manufacturing magnetically-actuated Couette cells
 
 
